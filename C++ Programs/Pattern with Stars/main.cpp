@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	//ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0);
+	int spacediff, diff = 4, stardiff;
+	for (int row = 1; row <= 9; row++)
+	{
+		if (row <= 5)
+			spacediff = 5 - row;
+		else
+			spacediff = row - 5;
+		for (int space = 0; space <= spacediff; space++)
+		{
+			cout << " ";
+		}
+		if (row <= 5)
+			stardiff = (row * 2) - 1;
+		else
+		{
+			stardiff = (row * 2) - 1 - diff;
+			diff = diff + 4;
+		}
+		for (int star = 1; star <= stardiff; star++)
+		{
+			cout << "*";
+		}
+		cout << endl;
+	}
+
+	return 0;
+}
