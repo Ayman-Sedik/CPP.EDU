@@ -2,7 +2,6 @@
 using namespace std;
 int main()
 {
-    //ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0);
 	int y, m, d, cy, cm, cd;
 	cout << "enter the Day of Birth and Month of Birth and Year of Birth  \n";
 	cin >> d;
@@ -14,7 +13,15 @@ int main()
 	cin >> cy;
 cout<<"------------------\n";
 
-	cout<<"Year = "<<cy-y<<endl;
+    if (d > cd){
+		cm--;
+		cd+=30;
+
+		cout<<"Day = "<<cd-d<<endl;
+	}
+	else
+		cout<<"Day = "<<cd-d<<endl;
+
     if(m>cm)
 	{
 		cy--;
@@ -24,13 +31,9 @@ cout<<"------------------\n";
 	else
 		cout<<"Month = "<<cm-m<<endl;
 
-	if (d > cd){
-		cm--;
-		cd+=30;
-		cout<<"Day = "<<cd-d<<endl;
-	}
-	else
-		cout<<"Day = "<<cd-d<<endl;
+    cout<<"Year = "<<cy-y<<endl;
+
+
 
 	system("pause");
 	return 0;

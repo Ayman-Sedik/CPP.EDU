@@ -5,7 +5,7 @@ int main()
 	//ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0);
 	int n1, n2, sum, prod, diff;
 	float quo;
-	cout << "please enter the numbers\n";
+	cout << "please enter two numbers\n";
 	cin >> n1 >> n2;
 	//processor
 	sum = n1 + n2;

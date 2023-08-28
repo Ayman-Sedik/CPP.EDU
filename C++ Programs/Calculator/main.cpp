@@ -44,7 +44,7 @@ int main()
         case's':
             cout << "The swap of two numbers (" << num1 << "," << num2 << "):";
             swap(num1, num2);
-            cout << "1stnumber=" << num1 << "and 2nd number=" << num2 << endl << endl;
+            cout << "1st number=" << num1 << "and 2nd number=" << num2 << endl << endl;
             break;
         default:
             cout << "unknown command" << endl;

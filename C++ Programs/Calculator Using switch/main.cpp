@@ -9,7 +9,7 @@ int main()
 	int i, j;
 	cout << "enter 2 numbers" << endl;
 	cin >> i >> j;
-
+	cout<<"--------------"<<endl;
 	switch (n) {
 	case '+':
 		cout << i + j << endl;

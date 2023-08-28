@@ -10,7 +10,8 @@ int main()
 	Rp = float(R1 * R2 * R3) / (R1 + R2 + R3);
 	Rs = R4;
 	Rt = Rp + Rs;
-	cout << Rp << endl;
-	cout << " the total resistance is equal " << Rt << endl;
+	cout<<"--------------------"<<endl;
+	cout <<"\nR in parallel is equal "<< Rp << endl;
+	cout << "\nthe total resistance is equal " << Rt << endl;
 	return 0;
 }

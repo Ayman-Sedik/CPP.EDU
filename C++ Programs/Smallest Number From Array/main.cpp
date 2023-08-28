@@ -4,7 +4,7 @@ int main()
 {
 	//ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0);
 	int c;
-	cout << "Enter Elements Of Array" << endl;
+	cout << "Enter Size Of Array" << endl;
 	cin >> c;
 	int arr['c'], small = 1000;
 	cout << "enter the numbers" << endl;

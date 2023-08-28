@@ -12,6 +12,7 @@ int main()
 		sum += m;
 		n = n / 10;
 	}
+	cout<<"----------------"<<endl;
 	cout << sum << endl;
 
 	return 0;
